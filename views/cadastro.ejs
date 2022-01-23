@@ -1,0 +1,23 @@
+<%- include ('partials/header') %>
+<link rel="stylesheet" href="/css/loginI.css">
+<body>
+    <div class="container">
+        <div class="card" style="margin-top: 20vh;">
+            <div class="card-header">
+                Cadastro
+            </div>
+            <div class="card-body">
+                <form action="/cadastrando" method="post">
+                    <label>Usuario</label>
+                    <input class="form-control" name="usuario" type="text"><br>
+                    <label>Email</label>
+                    <input class="form-control" name="email" type="email"><br>
+                    <label>Senha</label>
+                    <input class="form-control" name="senha"type="password"><br>
+                    <button class="btn btn-success">Sexo!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<%- include ('partials/footer') %> 

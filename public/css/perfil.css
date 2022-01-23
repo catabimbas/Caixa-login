@@ -1,0 +1,11 @@
+.card{
+    margin: 30%;
+    margin-top: 5vh;
+    text-align: center;
+}
+.container{
+    margin-top: 5vh;
+}
+#perfil{
+    border-radius: 50vh;
+}

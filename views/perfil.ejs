@@ -1,0 +1,20 @@
+<%- include ('partials/header') %>
+<link rel="stylesheet" href="/css/perfil.css">
+<body>
+    <%- include ('partials/navbar') %>
+    <div class="container">
+      <img id="perfil" src="/img/perfil.png" class="img-fluid mx-auto d-block" alt="">
+      <h2 style="text-align: center;"><%= login.usuario %> </h2>
+      
+      <div class="card">
+        <div class="card-header">
+          <h4>Conta</h4>
+        </div>
+        <div class="card-body">
+          <h5>Usuario: <%= login.usuario %></h5>
+          <h5>Email: <%= login.email %></h5>
+          <h5>Senha: <%= login.senha %></h5>
+        </div>
+    </div>
+</body>
+<%- include ('partials/footer') %> 
